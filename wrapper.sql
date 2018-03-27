@@ -79,7 +79,7 @@ CREATE TABLE `authorization` (
 
 LOCK TABLES `authorization` WRITE;
 /*!40000 ALTER TABLE `authorization` DISABLE KEYS */;
-INSERT INTO `authorization` VALUES (1,'\Ŝԓ\0Ҷô?�?֜ܟƧ,'0\ְ\Z\Ǧv\ܞqy\ݵsy0ȣθkΛ\἖񜇿L'),(2,'ȗٽќrh{̲\ㇼF񧬧GŀRqÓɿ,Ŝ'dțY\桤ІǭąS^܇Ep'); 
+INSERT INTO `authorization` VALUES  (1,'.^º\Ó\ØÜ¿û\ßò%\0¿\â\î','R»¿¾\áY©[gwSkÂ¦ž\â\Æv\é$\ÚR\ZI'),(2,'f\Ý¬\Òeqo†i§†§	','Œ|85c)üŽ¡²\ïe–$deb<HÁC\à\Ön\ÂQŒW'); 
 /*!40000 ALTER TABLE `authorization` ENABLE KEYS */;
 UNLOCK TABLES;
 
