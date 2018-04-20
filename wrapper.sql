@@ -79,7 +79,7 @@ CREATE TABLE `authorization` (
 
 LOCK TABLES `authorization` WRITE;
 /*!40000 ALTER TABLE `authorization` DISABLE KEYS */;
-INSERT INTO `authorization` VALUES  (1,'.^º\Ó\ØÜ¿û\ßò%\0¿\â\î','R»¿¾\áY©[gwSkÂ¦ž\â\Æv\é$\ÚR\ZI'),(2,'f\Ý¬\Òeqo†i§†§	','Œ|85c)üŽ¡²\ïe–$deb<HÁC\à\Ön\ÂQŒW'); 
+INSERT INTO `authorization` VALUES (1,'\Ŝԓ\0Ҷô?�?֜ܟƧ,'0\ְ\Z\Ǧv\ܞqy\ݵsy0ȣθkΛ\἖񜇿L'),(2,'ȗٽќrh{̲\ㇼF񧬧GŀRqÓɿ,Ŝ'dțY\桤ІǭąS^܇Ep');
 /*!40000 ALTER TABLE `authorization` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -408,6 +408,7 @@ CREATE TABLE `user_details` (
   `addressingName` varchar(45) NOT NULL,
   `userName` varchar(45) NOT NULL,
   `emailId` varchar(45) NOT NULL,
+  `companyName` varchar(250) DEFAULT NULL,
   `gender` varchar(1) DEFAULT NULL,
   `dob` date DEFAULT NULL,
   `age` tinyint(1) DEFAULT '0',
@@ -424,7 +425,6 @@ CREATE TABLE `user_details` (
   UNIQUE KEY `email_id_UNIQUE` (`emailId`),
   UNIQUE KEY `user_name_UNIQUE` (`userName`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='User Details';
-
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
